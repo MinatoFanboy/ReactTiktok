@@ -7,3 +7,7 @@ yarn install
 ```
 yarn start
 ```
+
+### Change port
+- create file .env.local
+Add: Port=3001
