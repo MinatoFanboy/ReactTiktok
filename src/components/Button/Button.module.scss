@@ -10,6 +10,7 @@
     background-color: var(--white);
     border: 1px solid transparent;
     user-select: none;
+    cursor: pointer;
 
     + .wrapper {
         margin-left: 18px;
@@ -19,6 +20,12 @@
         cursor: default;
         opacity: 0.5;
     }
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
 }
 
 .icon +.title, .title + .icon {

@@ -5,6 +5,7 @@ import styles from './Button.module.scss';
 const cx = classNames.bind(styles);
 
 function Button({
+    className,
     to,
     href,
     primary = false,
@@ -50,6 +51,7 @@ function Button({
         large,
         text,
         disabled,
+        [className]: className,
     });
 
     return (
