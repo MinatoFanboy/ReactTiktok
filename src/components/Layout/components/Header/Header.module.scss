@@ -21,6 +21,10 @@
     padding: 0 var(--default-layout-horizontal-space);
 }
 
+.logo-name {
+    display: flex;
+}
+
 /** Action */
 .actions {
     display: flex;
@@ -48,7 +52,7 @@
     font-size: 1.4rem;
     font-weight: 600;
     color: var(--white);
-    font-family: 'ProximaNova', sans-serif;
+    font-family: var(--font-family);
     background-color: var(--primary);
 }
 
