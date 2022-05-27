@@ -5,9 +5,14 @@
     --search-button-width: 52px;
     --search-button-color: rgba(22, 24, 35, 0.34);
 
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: 10;
     height: var(--default-layout-header-height);
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    background-color: var(--white);
     display: flex;
     justify-content: center;
 }
