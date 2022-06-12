@@ -19,7 +19,7 @@ function MenuItem({ data, onClick }) {
 }
 
 MenuItem.propTypes = {
-    data: PropTypes.string,
+    data: PropTypes.object,
     onClick: PropTypes.func,
 }
 
